@@ -62,9 +62,11 @@ Then secure your domaine name
 
 If you need to redirect all request in https  add this in your configuration
 
-**RewriteEngine On
+```
+RewriteEngine On
 RewriteCond %{SERVER_PORT} !443
-RewriteRule ^(/(.*))?$ https://%{HTTP_HOST}/$1 [R=301,L]**
+RewriteRule ^(/(.*))?$ https://%{HTTP_HOST}/$1 [R=301,L]
+```
 
 
 
