@@ -76,7 +76,7 @@ __
 
 __
 
-** Comodo **
+** Commodo importation **
 SSLEngine on
 SSLCertificateFile /path/to/your_domain_name.crt
 SSLCertificateKeyFile /path/to/your_private.key
